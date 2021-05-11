@@ -41,13 +41,13 @@ namespace lab1
                 // Console.WriteLine("Вершина 8");
             }
             //Console.WriteLine("Вершина 9");
-            if (den == 0)
-            {
-            //    Console.WriteLine("Вершина 10");
-                //Console.WriteLine("Попытка деления на нуль!");
-                return "Попытка деления на нуль!";
-                //Console.WriteLine("Вершина 11");
-            }
+            //if (den == 0)
+            //{
+            ////    Console.WriteLine("Вершина 10");
+            //    //Console.WriteLine("Попытка деления на нуль!");
+            //    return "Попытка деления на нуль!";
+            //    //Console.WriteLine("Вершина 11");
+            //}
 
             res.real = (a1 * a2 + b1 * b2) / den;
             res.imag = (a2 * b1 - a1 * b2) / den;
